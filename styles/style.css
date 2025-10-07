@@ -1,4 +1,4 @@
-/* Глобальные настройки отступов и расположения */
+/* Глобальные настройки */
 body {
   color: #FFF;
   background-color: #000;
@@ -13,7 +13,7 @@ body {
 .lots,
 .about
 .foor {
-  padding: 50px 0; /* вертикальные отступы между секциями */
+  padding: 50px 0; 
   color: #000;
   background-color: #fff;
 }
@@ -174,7 +174,7 @@ body {
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    position: relative; /* Добавляем для позиционирования оверлея */
+    position: relative;
 }
 
 /* Затемнение на карточках */
@@ -248,25 +248,25 @@ body {
     color: #000;
     background-color: #FFF;
     display: grid;
-    grid-template-columns: 380px 1fr; /* левая колонка как карточка, правая - остальное пространство */
-    gap: 10px; /* расстояние между колонками */
+    grid-template-columns: 380px 1fr;
+    gap: 10px; 
 }
 
 /* Колонка с логотипом */
 .about__column_logo {
     display: flex;
-    justify-content: center; /* выравнивание по горизонтали */
+    justify-content: center; 
 }
 
-/* Контейнер для логотипа - черный круг */
+/* Контейнер для логотипа */
 .about__logo {
-    width: 240px; /* фиксированная ширина */
-    height: 240px; /* фиксированная высота */
+    width: 240px; 
+    height: 240px; 
     background-color: #000;
-    border-radius: 50%; /* делаем круглым */
+    border-radius: 50%; 
     display: flex;
-    justify-content: center; /* выравнивание по горизонтали */
-    align-items: center; /* выравнивание по вертикали */
+    justify-content: center; 
+    align-items: center; 
 }
 
 /* Изображение логотипа */
@@ -279,7 +279,7 @@ body {
 
 /* Колонка с текстом */
 .about__column_text {
-    padding-top: 100px; /* заголовок на одной линии с центром круга */
+    padding-top: 100px;
     padding-right: 20px;
 }
 
@@ -297,13 +297,13 @@ body {
     line-height: 1.2;
 }
 
-/* Параграфы - отступ только у первого */
+/* Параграфы */
 .about__paragraph {
     margin: 0 0 25px 0;
 }
 
 .about__paragraph:last-of-type {
-    margin-bottom: 0; /* у последнего параграфа убираем отступ */
+    margin-bottom: 0;
 }
 
 
@@ -311,7 +311,6 @@ body {
 
 
 /* Стили для footer */
-/* Футер */
 .footer {
     padding: 0px 50px 90px;
     display: grid;
@@ -339,7 +338,7 @@ body {
     border-bottom-color: transparent;
 }
 
-/* Меню в футере - ДОБАВИТЬ подчеркивания */
+/* Меню в футере */
 .footer__menu {
     justify-self: center;
 }
@@ -359,7 +358,7 @@ body {
     margin-bottom: 0;
 }
 
-/* ДОБАВИТЬ эти стили для ссылок меню */
+/* стили для ссылок меню */
 .footer__menu-link {
     color: #000;
     text-decoration: underline; 
@@ -371,7 +370,7 @@ body {
     pointer-events: none;
 }
 
-/* Соцсети оставить без изменений */
+/* Соцсети */
 .footer__social-list {
     list-style: none;
     padding: 0;
@@ -406,7 +405,6 @@ body {
 
 
 
-/* Стилизация шапки с помощью Grid */
 /* Grid для header */
 .header {
     display: grid;
@@ -417,7 +415,7 @@ body {
     color: #000;
 }
 
-/* Меню - выравниваем влево */
+/* Меню */
 .header__menu {
     justify-self: start;
 }
@@ -458,7 +456,7 @@ body {
     text-decoration: none;
 }
 
-/* Логотип - точно по центру */
+/* Логотип */
 .header__logo {
     justify-self: center;
     display: block;
@@ -469,8 +467,7 @@ body {
     height: 105px;
 }
 
-/* Адрес - выравниваем вправо */
-/* Общие стили для адреса (переиспользование) */
+/* Адрес */
 .address {
     font-style: normal;
     line-height: 1.35;
