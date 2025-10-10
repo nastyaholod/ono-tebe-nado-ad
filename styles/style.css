@@ -2,7 +2,7 @@
 body {
   color: #fff;
   background-color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   margin: auto;
   width: 1100px;
 }
@@ -23,7 +23,7 @@ body {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  padding: 165px 50px 50px;
+  padding: 140px 50px 50px;
   color: #fff;
 }
 
@@ -95,7 +95,7 @@ body {
   color: #fff;
   padding: 12px 32px;
   font-size: 22px;
-  font-family: inherit;
+  font-family: "Raleway";
   text-transform: uppercase;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
@@ -142,7 +142,7 @@ body {
 
 .lots__card-list-item {
   flex: 0 0 334px;
-  height: 563px;
+  height: 596px;
 }
 
 /* Карточка с затемнением */
@@ -258,6 +258,7 @@ body {
 /* Колонка с текстом */
 .about__column_text {
   padding-top: 100px;
+  padding-right: 24px;
 }
 
 /* Заголовок секции */
