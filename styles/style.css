@@ -1,8 +1,8 @@
 /* Глобальные настройки отступов и расположения */
 body {
-  color: #FFF;
+  color: #fff;
   background-color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: auto;
   width: 1100px;
 }
@@ -20,11 +20,11 @@ body {
 /* Cover секция */
 .cover {
   position: relative;
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
   padding: 165px 50px 50px;
-  color: #FFF;
+  color: #fff;
 }
 
 /* Оверлей */
@@ -70,7 +70,6 @@ body {
   margin-right: -30px;
 }
 
-
 /* Подзаголовок и кнопка */
 .cover__description {
   display: flex;
@@ -92,8 +91,8 @@ body {
 
 .bet-button {
   background: transparent;
-  border: 1px solid #FFF;
-  color: #FFF;
+  border: 1px solid #fff;
+  color: #fff;
   padding: 12px 32px;
   font-size: 22px;
   font-family: inherit;
@@ -103,7 +102,7 @@ body {
 }
 
 .bet-button:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #000;
 }
 
@@ -115,8 +114,8 @@ body {
 /* Секция lots */
 .lots {
   padding: 180px 50px 0px 0px;
-  color: #000; 
-  background-color: #FFF; 
+  background-color: #fff;
+  color: #000;
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
@@ -143,7 +142,7 @@ body {
 
 .lots__card-list-item {
   flex: 0 0 334px;
-  height: 563px; 
+  height: 563px;
 }
 
 /* Карточка с затемнением */
@@ -162,7 +161,7 @@ body {
 
 /* Затемнение на карточках */
 .card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -186,26 +185,26 @@ body {
   text-decoration: underline;
   text-transform: uppercase;
   margin: 0;
-  color: #FFF;
+  color: #fff;
 }
 
 .card__text {
   font-size: 20px;
   line-height: 1.2;
   margin: 0;
-  color: #FFF;
+  color: #fff;
 }
 
 .card_type_film {
-  background-image: url('../images/card-lot-01.jpg');
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-  background-image: url('../images/card-lot-02.jpg');
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-  background-image: url('../images/card-lot-03.jpg');
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .lots__look-more-link {
@@ -223,16 +222,15 @@ body {
 
 /* Секция about */
 .about {
-  padding: 155px 0px; 
+  padding: 155px 0px;
   color: #000;
-  background-color: #FFF;
+  background-color: #fff;
   display: grid;
   grid-template-columns: 380px 1fr; /* Возвращаем 430px */
   max-width: 1100px;
   margin: 0 auto;
   box-sizing: border-box;
 }
-
 
 /* Колонка с логотипом */
 .about__column_logo {
@@ -292,7 +290,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   gap: 0;
-  background-color: #FFF;
+  background-color: #fff;
   color: #000;
 }
 
@@ -382,7 +380,7 @@ body {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 50px;
-  background-color: #FFF;
+  background-color: #fff;
   color: #000;
 }
 
