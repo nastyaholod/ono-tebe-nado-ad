@@ -384,7 +384,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 90px 50px 92px 50px;
+  padding: 90px 50px 96px 50px;
   background-color: #fff;
   color: #000;
 }
