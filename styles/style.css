@@ -23,7 +23,7 @@ body {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  padding: 140px 50px 50px;
+  padding: 135px 50px 50px;
   color: #fff;
 }
 
@@ -52,6 +52,8 @@ body {
   text-transform: uppercase;
   margin: 0 0 135px;
   letter-spacing: 30px;
+  position: relative;
+  top: 30px;
 }
 
 .aligned-text {
@@ -62,7 +64,7 @@ body {
 
 .aligned-text_center {
   text-align: center;
-  margin-left: 40px;
+  margin-left: 31px;
 }
 
 .aligned-text_right {
@@ -259,6 +261,8 @@ body {
 .about__column_text {
   padding-top: 100px;
   padding-right: 24px;
+  margin-right: 5px;
+  margin-left: 3px;
 }
 
 /* Заголовок секции */
@@ -326,7 +330,7 @@ body {
 }
 
 .footer__menu-list-item {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .footer__menu-list-item:last-child {
@@ -380,7 +384,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px;
+  padding: 90px 50px 92px 50px;
   background-color: #fff;
   color: #000;
 }
@@ -395,7 +399,7 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 32px;
+  gap: 33px;
 }
 
 .header__links-list-item {
@@ -457,4 +461,5 @@ body {
   justify-self: end;
   text-align: left;
   max-width: 240px;
+  margin-right: 3px;
 }
